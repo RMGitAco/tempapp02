@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hugging Face Chatbot</title>
+  </head>
+  <body>
+    <div>
+      <h1>Ask a Question</h1>
+      <form method="post">
+        <label for="question">Enter your question:</label>
+        <input type="text" id="question" name="question" required>
+        <button type="submit">Get Response</button>
+      </form>
+      <div>
+        <h2>Response:</h2>
+        <p>{{ response }}</p>
+      </div>
+    </div>
+  </body>
+</html>
